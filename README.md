@@ -20,7 +20,7 @@
    composer require razorisuru/shopping-cart:dev-main
    ```
 
-2. Configure Composer to use the token:
+2. Configure Composer to use the token (Optional):
    ```bash
    composer config --global github-oauth.github.com your-personal-access-token
    ```
