@@ -21,7 +21,10 @@
     "laravel": {
         "providers": [
             "razorisuru\\ShoppingCart\\ShoppingCartServiceProvider"
-        ]
+        ],
+        "aliases": {
+            "Cart": "Razorisuru\\ShoppingCart\\CartFacade"
+        }
     }
 },
 "repositories": [
