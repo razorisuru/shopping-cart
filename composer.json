@@ -1,0 +1,34 @@
+{
+    "name": "razorisuru/shopping-cart",
+    "description": "The ShoppingCart package provides a simple and flexible solution for managing a shopping cart in Laravel applications. It uses sessions to store cart items, allowing you to easily add, update, remove, and clear items. With support for custom attributes, price calculations, and total cost computation, this package is ideal for building e-commerce and order management systems.",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Razorisuru\\ShoppingCart\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Isuru Bandara",
+            "email": "isurubandara318@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^11.37"
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "razorisuru\\ShoppingCart\\ShoppingCartServiceProvider"
+        ]
+    }
+},
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/razorisuru/shopping-cart"
+        }
+    ]
+    
+
+}
