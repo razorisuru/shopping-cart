@@ -29,7 +29,9 @@
             "type": "vcs",
             "url": "https://github.com/razorisuru/shopping-cart"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
     
 
 }

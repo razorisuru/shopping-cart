@@ -3,7 +3,7 @@
         'name' => 'razorisuru/shopping-cart',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '846367109309c0a854cde2c14b2611d4a978fe45',
+        'reference' => 'd87b3f2431ccf3bec2c1a2598de0387bda48440c',
         'type' => 'composer-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -118,7 +118,7 @@
         'razorisuru/shopping-cart' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '846367109309c0a854cde2c14b2611d4a978fe45',
+            'reference' => 'd87b3f2431ccf3bec2c1a2598de0387bda48440c',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
