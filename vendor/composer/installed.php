@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'razorisuru/shopping-cart',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '846367109309c0a854cde2c14b2611d4a978fe45',
         'type' => 'composer-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -116,9 +116,9 @@
             'dev_requirement' => false,
         ),
         'razorisuru/shopping-cart' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '846367109309c0a854cde2c14b2611d4a978fe45',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
