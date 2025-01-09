@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Razorisuru\\ShoppingCart\\": "src/"
+            "razorisuru\\ShoppingCart\\": "src/"
         }
     },
     "authors": [
@@ -23,7 +23,7 @@
             "razorisuru\\ShoppingCart\\ShoppingCartServiceProvider"
         ],
         "aliases": {
-            "Cart": "Razorisuru\\ShoppingCart\\CartFacade"
+            "Cart": "razorisuru\\ShoppingCart\\CartFacade"
         }
     }
 },
