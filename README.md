@@ -31,11 +31,14 @@ Declare the cart:
    ```bash
    use razorisuru\ShoppingCart\Cart;
 
-   protected $cart;
-
-   public function __construct()
+   class ProductController extends Controller
    {
-      $this->cart = new Cart(); // Initialize an instance of the Cart class
+      protected $cart;
+
+      public function __construct()
+      {
+         $this->cart = new Cart(); // Initialize an instance of the Cart class
+      }
    }
    ```
 
