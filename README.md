@@ -26,7 +26,8 @@
    ```
 
 Usage
- Declare the cart:
+
+Declare the cart:
    ```bash
    use razorisuru\ShoppingCart\Cart;
 
