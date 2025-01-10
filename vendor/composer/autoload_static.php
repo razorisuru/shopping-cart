@@ -23,6 +23,10 @@ class ComposerStaticInit50029b3323387ae9cf0b1e7124f156c2
         array (
             'voku\\' => 5,
         ),
+        'r' => 
+        array (
+            'razorisuru\\ShoppingCart\\' => 24,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php83\\' => 23,
@@ -30,10 +34,6 @@ class ComposerStaticInit50029b3323387ae9cf0b1e7124f156c2
             'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\Clock\\' => 24,
-        ),
-        'R' => 
-        array (
-            'Razorisuru\\ShoppingCart\\' => 24,
         ),
         'P' => 
         array (
@@ -62,6 +62,10 @@ class ComposerStaticInit50029b3323387ae9cf0b1e7124f156c2
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
         ),
+        'razorisuru\\ShoppingCart\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Symfony\\Polyfill\\Php83\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php83',
@@ -81,10 +85,6 @@ class ComposerStaticInit50029b3323387ae9cf0b1e7124f156c2
         'Symfony\\Component\\Clock\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/clock',
-        ),
-        'Razorisuru\\ShoppingCart\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Psr\\SimpleCache\\' => 
         array (

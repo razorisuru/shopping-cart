@@ -16,6 +16,8 @@ class Cart
             $cart[$itemId]['quantity'] += $quantity;
         } else {
             $cart[$itemId] = [
+                'user_id' => $userId,
+                'item_id' => $itemId,
                 'quantity' => $quantity,
                 'price' => $price,
                 'attributes' => $attributes,
@@ -45,6 +47,12 @@ class Cart
     {
         session::forget($this->getSessionKey($userId));
     }
+
+    public function clearCart()
+    {
+        session::forget($this->sessionKey);
+    }
+
 
     public function getAll($userId)
     {
