@@ -17,7 +17,7 @@
 ## Installation
 1. Clone the repository:
    ```bash
-   composer require razorisuru/shopping-cart:dev-main
+   composer require razorisuru/shopping-cart
    ```
 
 2. Configure Composer to use the token (Optional):
