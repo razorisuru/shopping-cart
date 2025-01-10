@@ -26,38 +26,53 @@
    ```
 
 Usage
-
-1. Adding Items to the Cart:
+ Declare the cart:
    ```bash
    use razorisuru\ShoppingCart\Cart;
 
-    $cart = app(Cart::class);
-    $cart->add(1, 2, 100, ['color' => 'red']); // Add item with ID 1, quantity 2, and price 100
+   protected $cart;
+
+   public function __construct()
+   {
+      $this->cart = new Cart(); // Initialize an instance of the Cart class
+   }
+   ```
+
+1. Adding Items to the Cart:
+   ```bash
+
+    $this->cart = app(Cart::class);
+    $this->cart->add($userId = 1, $itemId = 101, $quantity = 2, $price = 10.50, $attributes = ['color' => 'red']);
    ```
 
 2. Getting All Cart Items:
    ```bash
-   $items = $cart->getAll();
+   $this->items = $cart->getAll($userId = 1);
    ```
 
 3. Updating an Item's Quantity:
    ```bash
-   $cart->update(1, 5); // Update item with ID 1 to have a quantity of 5
+   $this->cart->update(1, 5); // Update item with ID 1 to have a quantity of 5
    ```
 
-4. URemoving an Item:
+4. Removing an Item:
    ```bash
-   $cart->remove(1); // Remove item with ID 1
+   $this->cart->remove($userId = 1, $itemId = 101);
    ```
 
 5. Clearing the Cart:
    ```bash
-   $cart->clear();
+   $this->cart->clear($userId = 1);
    ```
 
-6. CCalculating Total Cost:
+6. Calculating Total Cost:
    ```bash
-   $total = $cart->total();
+   $this->total = $cart->total($userId = 1);
+   ```
+
+6. Counting the user cart items:
+   ```bash
+   $this->count = $cart->count($userId = 1);
    ```
 
 Requirements
