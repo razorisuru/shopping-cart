@@ -67,10 +67,16 @@ class Cart
         }, $cart));
     }
 
-    public function count($userId)
+    public function countQuantity($userId)
     {
         $cart = session::get($this->getSessionKey($userId), []);
         return array_sum(array_column($cart, 'quantity'));
+    }
+
+    public function countProducts($userId)
+    {
+        $cart = session::get($this->getSessionKey($userId), []);
+        return array_sum(array_column($cart, $userId));
     }
 
     private function getSessionKey($userId)
