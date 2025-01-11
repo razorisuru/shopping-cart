@@ -44,8 +44,6 @@ Declare the cart:
 
 1. Adding Items to the Cart:
    ```bash
-
-    $this->cart = app(Cart::class);
     $this->cart->add($userId = 1, $itemId = 101, $quantity = 2, $price = 10.50, $attributes = ['color' => 'red']);
    ```
 
