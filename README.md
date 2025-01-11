@@ -69,12 +69,17 @@ Declare the cart:
 
 6. Calculating Total Cost:
    ```bash
-   $this->total = $cart->total($userId = 1);
+   $this->cart->total($userId = 1);
    ```
 
 6. Counting the user cart items:
    ```bash
-   $this->count = $cart->count($userId = 1);
+   $this->cart->countQuantity($userId = 1);
+   ```
+
+6. Counting the user cart Product Count:
+   ```bash
+   $this->cart->countProducts($userId = 1);
    ```
 
 Requirements
