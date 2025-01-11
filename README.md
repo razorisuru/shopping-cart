@@ -54,7 +54,7 @@ Declare the cart:
 
 3. Updating an Item's Quantity:
    ```bash
-   $this->cart->update(1, 5); // Update item with ID 1 to have a quantity of 5
+   $this->cart->update(1, 1, 5); // Update item with USERID 1, PRODUCTID 1 to have a quantity of 5
    ```
 
 4. Removing an Item:
