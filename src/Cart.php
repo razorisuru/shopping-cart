@@ -76,7 +76,7 @@ class Cart
     public function countProducts($userId)
     {
         $cart = session::get($this->getSessionKey($userId), []);
-        return array_sum(array_column($cart, $userId));
+        return count($cart);
     }
 
     private function getSessionKey($userId)
